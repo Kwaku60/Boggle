@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boggler</title>
+    <link rel="stylesheet" href="style/boggleHome.css">
+</head>
+<body>
+    <div class="header-container">
+        <h1>Boggler</h1>
+        <h2>Enter a new board, let us solve!</h2>
+    </div>
+    <div class="container-main-board">
+        <div class="main-board">
+            <table class="main-boggle-board-table" id="main-boggle-board">
+                <h2>Edit The Board</h2>
+                <thead>
+                </thead>
+                <tbody>
+                <tr id="main-board-first-row">
+                    <td contenteditable='true'>A</td>
+                    <td contenteditable='true'>B</td>
+                    <td contenteditable='true'>C</td>
+                    <td contenteditable='true'>D</td>
+                </tr>
+                <tr id="main-boarod-second-row">
+                    <td contenteditable='true'>E</td>
+                    <td contenteditable='true'>F</td>
+                    <td contenteditable='true'>G</td>
+                    <td contenteditable='true'>H</td>
+                </tr>
+                <tr id="main-board-third-row">
+                    <td contenteditable='true'>I</td>
+                    <td contenteditable='true'>J</td>
+                    <td contenteditable='true'>K</td>
+                    <td contenteditable='true'>L</td>
+                </tr>
+                <tr id="main-board-fourth-row">
+                    <td contenteditable='true'>M</td>
+                    <td contenteditable='true'>N</td>
+                    <td contenteditable='true'>O</td>
+                    <td contenteditable='true'>P</td>
+                </tr>
+                </tbody>
+                </table>
+        </div>
+        <div class="container-board-submission">
+            <h2>Submit your board, and view the answers</h2>
+            <div class="board-submission">
+                <input type="button" id="board-save-and-submit" value="submit"> </input>
+                <div id="board-submission-results"></div>
+            </div>
+                
+        </div>
+    </div>
+
+<!-- TODO: (short term solution) loading the entire english dictionary before js file is extreme risk to speed and inefficient
+Use a library/api for refferencing the dictionary instead.-->
+<script src="js/en_dict.js" type="text/javascript"></script>
+<script src="js/boggleHome.js" type="text/javascript"></script>
+</body>
+</html>

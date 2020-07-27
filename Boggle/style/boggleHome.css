@@ -1,0 +1,64 @@
+.header-container{
+    width: 90%;
+    margin: 0 auto;
+    border: solid darkred 1px;
+    background-color: cornsilk;
+}
+
+h1, h2{
+    color: maroon;
+    text-align: center;
+}
+
+.container-main-board{
+    border: solid black 2px;
+    margin: 0 auto;
+    margin-top: 12px; 
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+}
+
+.main-board{
+    border:solid rebeccapurple 1px;
+    width: 50%;
+
+   
+}
+
+.container-board-submission{
+    border: solid olivedrab 1px;
+    width: 50%;
+    float: right;
+}
+
+.board-save-and-submit{
+    border: solid yellowgreen 1px;
+    padding: 5px;
+}
+
+.main-boggle-board-table{
+    border: solid brown 2px;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 2rem;
+}
+
+
+table{
+    width: 30%;
+    padding: 5px;
+    margin: 0 auto;
+}
+
+.board-submission input{
+    border: solid cornsilk 4px;
+    padding: 1.5rem;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 0, 0.444);
+}
+
+
